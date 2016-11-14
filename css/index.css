@@ -1,0 +1,414 @@
+/*
+
+*/
+
+.version.index /* version checker */
+{
+	color: #0000EC;
+	background-color: #A73D97;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1200px;
+	min-height: 800px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	padding-bottom: 420px;
+	width: 0.01px;
+}
+
+#slideshowu116
+{
+	z-index: 2;
+	width: 0.01px;
+	height: 0px;
+	padding-bottom: 360px;
+	left: -240px;
+	margin-top: 20px;
+	position: relative;
+}
+
+#u122
+{
+	position: absolute;
+	background-color: transparent;
+}
+
+#u122popup
+{
+	z-index: 3;
+}
+
+#u123
+{
+	z-index: 4;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u212
+{
+	z-index: 6;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u227
+{
+	z-index: 8;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u242
+{
+	z-index: 10;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+}
+
+#u132
+{
+	position: absolute;
+	width: 130px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	padding-bottom: 260px;
+}
+
+#u132popup
+{
+	z-index: 12;
+}
+
+#u137
+{
+	z-index: 13;
+	width: 60px;
+	height: 45px;
+	border-color: #6B6B6B;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u215
+{
+	z-index: 15;
+	width: 60px;
+	height: 45px;
+	border-color: #6B6B6B;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	left: 70px;
+}
+
+#u137.SSSlideLinkSelected,#u215.SSSlideLinkSelected
+{
+	border-style: none;
+	border-color: transparent;
+	width: 60px;
+	height: 45px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u230
+{
+	z-index: 17;
+	width: 60px;
+	height: 45px;
+	border-color: #6B6B6B;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 55px;
+}
+
+#u245
+{
+	z-index: 19;
+	width: 60px;
+	height: 45px;
+	border-color: #6B6B6B;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 55px;
+	left: 70px;
+}
+
+#u230.SSSlideLinkSelected,#u245.SSSlideLinkSelected
+{
+	border-style: none;
+	border-color: transparent;
+	width: 60px;
+	height: 45px;
+	min-height: 0px;
+	margin: 55px -10000px 0px 0px;
+}
+
+#u137_clip,#u215_clip,#u230_clip,#u245_clip
+{
+	overflow: hidden;
+	width: 60px;
+	height: 45px;
+}
+
+#u137_img,#u215_img,#u230_img,#u245_img
+{
+	margin-left: -4px;
+	margin-right: -4px;
+}
+
+#u118
+{
+	width: 600px;
+	background-color: transparent;
+	position: fixed;
+	bottom: 120px;
+	left: 50%;
+	margin-left: -300px;
+}
+
+#u118popup
+{
+	z-index: 21;
+}
+
+#u119-4
+{
+	z-index: 22;
+	width: 580px;
+	min-height: 60px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	padding: 10px;
+	line-height: 64px;
+	color: #FFFFFF;
+	font-size: 64px;
+	text-align: center;
+	font-family: '__ITC Clearface Std_5';
+	font-weight: 600;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u218-4
+{
+	z-index: 26;
+	width: 580px;
+	min-height: 60px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	padding: 10px;
+	line-height: 64px;
+	color: #FFFFFF;
+	font-size: 64px;
+	text-align: center;
+	font-family: '__ITC Clearface Std_5';
+	font-weight: 600;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u233-4
+{
+	z-index: 30;
+	width: 580px;
+	min-height: 60px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	padding: 10px;
+	line-height: 64px;
+	color: #FFFFFF;
+	font-size: 64px;
+	text-align: center;
+	font-family: '__ITC Clearface Std_5';
+	font-weight: 600;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u248-4
+{
+	z-index: 34;
+	width: 580px;
+	min-height: 60px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	padding: 10px;
+	line-height: 64px;
+	color: #FFFFFF;
+	font-size: 64px;
+	text-align: center;
+	font-family: '__ITC Clearface Std_5';
+	font-weight: 600;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u129-4
+{
+	width: 48px;
+	min-height: 12px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	padding: 10px;
+	line-height: 12px;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	font-family: '__Apercu Mono_5';
+	font-weight: 400;
+	position: fixed;
+	bottom: 60px;
+	left: 50%;
+	margin-left: -34px;
+}
+
+#u129-4popup
+{
+	z-index: 38;
+}
+
+.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+{
+	cursor: pointer;
+}
+
+.SSSlideLoading /* slideshowFreeStyle */
+{
+	background: url("../images/loading.gif") no-repeat center center;
+}
+
+#u88
+{
+	z-index: 42;
+	min-height: 85px;
+	padding-bottom: 34px;
+}
+
+#u88_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	left: -100px;
+	margin-bottom: -120px;
+}
+
+#u181
+{
+	z-index: 51;
+	width: 190px;
+	margin-right: -10000px;
+	margin-top: 35px;
+	left: 100px;
+}
+
+#u184-4
+{
+	z-index: 53;
+	width: 80px;
+	min-height: 13px;
+	margin-right: -10000px;
+	margin-top: 53px;
+	left: 960px;
+}
+
+#u113-4
+{
+	z-index: 43;
+	width: 80px;
+	min-height: 13px;
+	margin-right: -10000px;
+	margin-top: 53px;
+	left: 1060px;
+}
+
+#u115-4
+{
+	z-index: 47;
+	width: 80px;
+	min-height: 13px;
+	margin-right: -10000px;
+	margin-top: 53px;
+	left: 1160px;
+}
+
+#u184-4:hover,#u113-4:hover,#u115-4:hover
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 13px;
+	width: 80px;
+	margin: 53px -10000px 0px 0px;
+}
+
+#u193
+{
+	z-index: 57;
+	width: 24px;
+	margin-right: -10000px;
+	margin-top: 48px;
+	left: 1276px;
+}
+
+#u88-bw
+{
+	z-index: 42;
+	min-height: 85px;
+	margin-top: -380px;
+}
+
+@font-face
+{
+	font-family: '__Apercu Mono_5';
+	src: url('../fonts/apercu-mono-webfont.eot');
+	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__ITC Clearface Std_5';
+	src: url('../fonts/clearfacestd-bold.eot');
+	src: local('☺'), url('../fonts/clearfacestd-bold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+body
+{
+	position: relative;
+	min-width: 1200px;
+}
+

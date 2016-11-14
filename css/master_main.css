@@ -1,0 +1,65 @@
+#u88
+{
+	border-style: solid;
+	border-color: #EEEEEE;
+	background-color: #FFFFFF;
+	border-width: 0px 0px 1px;
+}
+
+#u88_align_to_page
+{
+	position: relative;
+}
+
+#u184-4
+{
+	background-color: transparent;
+	color: #222222;
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 14px;
+	text-align: center;
+	font-family: '__Apercu Mono_5';
+	font-weight: 400;
+	position: relative;
+}
+
+#u113-4
+{
+	background-color: transparent;
+	color: #222222;
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 14px;
+	text-align: center;
+	font-family: '__Apercu Mono_5';
+	font-weight: 400;
+	position: relative;
+}
+
+#u115-4
+{
+	background-color: transparent;
+	color: #222222;
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 14px;
+	text-align: center;
+	font-family: '__Apercu Mono_5';
+	font-weight: 400;
+	position: relative;
+}
+
+#u184-4:hover p,#u113-4:hover p,#u115-4:hover p
+{
+	color: #FFCC00;
+	visibility: inherit;
+	text-decoration: underline;
+}
+
+#u181,#u193
+{
+	background-color: transparent;
+	position: relative;
+}
+

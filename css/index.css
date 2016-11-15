@@ -4,8 +4,8 @@
 
 .version.index /* version checker */
 {
-	color: #0000EC;
-	background-color: #A73D97;
+	color: #000015;
+	background-color: #D5F6F2;
 }
 
 .html
@@ -187,7 +187,7 @@
 	width: 600px;
 	background-color: transparent;
 	position: fixed;
-	bottom: 120px;
+	bottom: 130px;
 	left: 50%;
 	margin-left: -300px;
 }
@@ -197,80 +197,81 @@
 	z-index: 21;
 }
 
-#u119-4
+#u119-6
 {
 	z-index: 22;
 	width: 580px;
-	min-height: 60px;
+	min-height: 120px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
 	padding: 10px;
-	line-height: 64px;
 	color: #FFFFFF;
-	font-size: 64px;
 	text-align: center;
-	font-family: '__ITC Clearface Std_5';
-	font-weight: 600;
 	margin-right: -10000px;
 	position: relative;
 }
 
-#u218-4
+#u218-6
 {
-	z-index: 26;
+	z-index: 28;
 	width: 580px;
-	min-height: 60px;
+	min-height: 120px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
 	padding: 10px;
-	line-height: 64px;
 	color: #FFFFFF;
-	font-size: 64px;
 	text-align: center;
-	font-family: '__ITC Clearface Std_5';
-	font-weight: 600;
 	margin-right: -10000px;
 	position: relative;
 }
 
-#u233-4
-{
-	z-index: 30;
-	width: 580px;
-	min-height: 60px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	padding: 10px;
-	line-height: 64px;
-	color: #FFFFFF;
-	font-size: 64px;
-	text-align: center;
-	font-family: '__ITC Clearface Std_5';
-	font-weight: 600;
-	margin-right: -10000px;
-	position: relative;
-}
-
-#u248-4
+#u233-6
 {
 	z-index: 34;
 	width: 580px;
-	min-height: 60px;
+	min-height: 120px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
 	padding: 10px;
-	line-height: 64px;
 	color: #FFFFFF;
-	font-size: 64px;
 	text-align: center;
-	font-family: '__ITC Clearface Std_5';
-	font-weight: 600;
 	margin-right: -10000px;
 	position: relative;
+}
+
+#u248-6
+{
+	z-index: 40;
+	width: 580px;
+	min-height: 120px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	padding: 10px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-right: -10000px;
+	position: relative;
+}
+
+#u119-2,#u218-2,#u233-2,#u248-2
+{
+	font-size: 64px;
+	line-height: 102px;
+	font-family: '__ITC Clearface Std_5';
+	font-weight: 600;
+}
+
+#u119-4,#u218-4,#u233-4,#u248-4
+{
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 1px;
+	font-family: '__Brandon Grotesque_5';
+	font-weight: 400;
 }
 
 #u129-4
@@ -281,10 +282,10 @@
 	border-color: transparent;
 	background-color: transparent;
 	padding: 10px;
-	line-height: 12px;
 	color: #FFFFFF;
 	font-size: 12px;
 	text-align: center;
+	line-height: 12px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
 	position: fixed;
@@ -295,7 +296,7 @@
 
 #u129-4popup
 {
-	z-index: 38;
+	z-index: 46;
 }
 
 .SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
@@ -310,7 +311,7 @@
 
 #u88
 {
-	z-index: 42;
+	z-index: 50;
 	min-height: 85px;
 	padding-bottom: 34px;
 }
@@ -326,7 +327,7 @@
 
 #u181
 {
-	z-index: 51;
+	z-index: 59;
 	width: 190px;
 	margin-right: -10000px;
 	margin-top: 35px;
@@ -335,7 +336,7 @@
 
 #u184-4
 {
-	z-index: 53;
+	z-index: 61;
 	width: 80px;
 	min-height: 13px;
 	margin-right: -10000px;
@@ -345,7 +346,7 @@
 
 #u113-4
 {
-	z-index: 43;
+	z-index: 51;
 	width: 80px;
 	min-height: 13px;
 	margin-right: -10000px;
@@ -355,7 +356,7 @@
 
 #u115-4
 {
-	z-index: 47;
+	z-index: 55;
 	width: 80px;
 	min-height: 13px;
 	margin-right: -10000px;
@@ -374,7 +375,7 @@
 
 #u193
 {
-	z-index: 57;
+	z-index: 65;
 	width: 24px;
 	margin-right: -10000px;
 	margin-top: 48px;
@@ -383,18 +384,9 @@
 
 #u88-bw
 {
-	z-index: 42;
+	z-index: 50;
 	min-height: 85px;
 	margin-top: -380px;
-}
-
-@font-face
-{
-	font-family: '__Apercu Mono_5';
-	src: url('../fonts/apercu-mono-webfont.eot');
-	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
-	font-weight: 400;
-	font-style: normal;
 }
 
 @font-face
@@ -403,6 +395,24 @@
 	src: url('../fonts/clearfacestd-bold.eot');
 	src: local('☺'), url('../fonts/clearfacestd-bold.woff') format('woff');
 	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__Brandon Grotesque_5';
+	src: url('../fonts/brandongrotesque-bold-webfont.eot');
+	src: local('☺'), url('../fonts/brandongrotesque-bold-webfont.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: '__Apercu Mono_5';
+	src: url('../fonts/apercu-mono-webfont.eot');
+	src: local('☺'), url('../fonts/apercu-mono-webfont.woff') format('woff');
+	font-weight: 400;
 	font-style: normal;
 }
 

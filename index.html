@@ -3,7 +3,7 @@
  <head>
 
   <script type="text/javascript">
-   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "index.css"], "outOfDate":[]};
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "index.css"], "outOfDate":[]};
 </script>
   
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
@@ -11,13 +11,64 @@
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?4052507572"/>
-  <link rel="stylesheet" type="text/css" href="css/master_main.css?111529120"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?366343922" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_main.css?299788728"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?4276005138" id="pagesheet"/>
   <!-- Other scripts -->
   <script type="text/javascript">
    document.documentElement.className += ' js';
 </script>
-    <!--/*
+    <!--custom head HTML-->
+  <style>
+.instagram:hover {
+       transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+}
+</style>
+  <!--HTML Widget code-->
+  
+<style>
+* {
+       transition:all .5s ease;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+}
+
+.clip_frame, .Container, .ContainerGroup, .verticalspacer, #preloader,{
+transition:none !important;
+-webkit-transition:none !important;
+-moz-transition:none !important;
+-o-transition:none !important;
+}
+
+.SlideShowContentPanel *{
+transition:none !important;
+-webkit-transition:none !important;
+-moz-transition:none !important;
+-o-transition:none !important;
+}
+
+.ContainerGroup, .wp-panel, wp-panel-active{
+transition:none !important;
+-webkit-transition:none !important;
+-moz-transition:none !important;
+-o-transition:none !important;
+}
+
+.js div#preloader{
+transition:none !important;
+-webkit-transition:none !important;
+-moz-transition:none !important;
+-o-transition:none !important;
+}
+
+</style>
+
+  <!--/*
 
 */
 -->
@@ -93,28 +144,30 @@
       </div>
      </div>
     </div>
-    <div class="browser_width colelem" id="u88-bw">
-     <div id="u88"><!-- group -->
-      <div class="clearfix" id="u88_align_to_page">
-       <div class="clip_frame grpelem" id="u181"><!-- image -->
-        <img class="block" id="u181_img" src="images/portfolio-signature-1a.png" alt="" width="190" height="50"/>
-       </div>
-       <div class="clearfix grpelem" id="u184-4"><!-- content -->
-        <p>Home</p>
-       </div>
-       <div class="clearfix grpelem" id="u113-4"><!-- content -->
-        <p>Projects</p>
-       </div>
-       <div class="clearfix grpelem" id="u115-4"><!-- content -->
-        <p>About</p>
-       </div>
-       <div class="clip_frame grpelem" id="u193"><!-- image -->
-        <img class="block" id="u193_img" src="images/glyph-logo_may2016_gr.png" alt="" width="24" height="24"/>
+    <div class="clearfix colelem" id="pu321"><!-- group -->
+     <div class="grpelem" id="u321"><!-- custom html -->
+      
+            
+</div>
+     <div class="browser_width grpelem" id="u88-bw">
+      <div id="u88"><!-- group -->
+       <div class="clearfix" id="u88_align_to_page">
+        <a class="nonblock nontext MuseLinkActive signature museBGSize grpelem" id="u302" href="index.html"><!-- simple frame --></a>
+        <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u184-4" href="index.html"><!-- content --><p>Home</p></a>
+        <a class="nonblock nontext clearfix grpelem" id="u113-4" href="projects.html"><!-- content --><p>Projects</p></a>
+        <div class="clearfix grpelem" id="u115-4"><!-- content -->
+         <p>About</p>
+        </div>
+        <a class="nonblock nontext instagram museBGSize grpelem" id="u290" href="https://instagram.com/_samjiang/"><!-- simple frame --></a>
        </div>
       </div>
      </div>
     </div>
    </div>
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/portfolio-signature-1a-y.png" alt=""/>
+   <img class="preload" src="images/glyph-logo_may2016_y.png" alt=""/>
   </div>
   <!-- JS includes -->
   <script type="text/javascript">
@@ -128,6 +181,7 @@
   <script src="scripts/musewpslideshow.js?242596657" type="text/javascript"></script>
   <script src="scripts/jquery.museoverlay.js?493285861" type="text/javascript"></script>
   <script src="scripts/touchswipe.js?4038331989" type="text/javascript"></script>
+  <script src="scripts/jquery.musepolyfill.bgsize.js?4004268962" type="text/javascript"></script>
   <script src="scripts/jquery.watch.js?71412426" type="text/javascript"></script>
   <!-- Other scripts -->
   <script type="text/javascript">

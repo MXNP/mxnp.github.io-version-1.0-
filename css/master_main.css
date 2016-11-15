@@ -1,3 +1,11 @@
+#u321
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
 #u88
 {
 	border-style: solid;
@@ -11,13 +19,36 @@
 	position: relative;
 }
 
+#u302
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: transparent;
+	position: relative;
+	background-size: contain;
+}
+
+#u302:hover
+{
+	background: transparent url("../images/portfolio-signature-1a-y.png") no-repeat center center;
+	background-size: contain;
+}
+
+.signature
+{
+	border-style: none;
+	border-color: #000000;
+	background: transparent url("../images/portfolio-signature-1a.png") no-repeat center center;
+	background-size: contain;
+}
+
 #u184-4
 {
 	background-color: transparent;
 	color: #222222;
-	font-size: 12px;
-	letter-spacing: 1px;
 	text-align: center;
+	letter-spacing: 1px;
+	font-size: 12px;
 	line-height: 14px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
@@ -28,9 +59,9 @@
 {
 	background-color: transparent;
 	color: #222222;
-	font-size: 12px;
-	letter-spacing: 1px;
 	text-align: center;
+	letter-spacing: 1px;
+	font-size: 12px;
 	line-height: 14px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
@@ -41,9 +72,9 @@
 {
 	background-color: transparent;
 	color: #222222;
-	font-size: 12px;
-	letter-spacing: 1px;
 	text-align: center;
+	letter-spacing: 1px;
+	font-size: 12px;
 	line-height: 14px;
 	font-family: '__Apercu Mono_5';
 	font-weight: 400;
@@ -57,9 +88,26 @@
 	text-decoration: underline;
 }
 
-#u181,#u193
+#u290
 {
+	background-repeat: no-repeat;
+	background-position: center center;
 	background-color: transparent;
 	position: relative;
+	background-size: contain;
+}
+
+#u290:hover
+{
+	background: transparent url("../images/glyph-logo_may2016_y.png") no-repeat center center;
+	background-size: contain;
+}
+
+.instagram
+{
+	border-style: none;
+	border-color: #000000;
+	background: transparent url("../images/glyph-logo_may2016_gr.png") no-repeat center center;
+	background-size: contain;
 }
 

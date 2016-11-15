@@ -1,9 +1,9 @@
-<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://mxnp.github.io" resolutions="1x" timestamp="1479195797293">
+<manifest alg="2" build="2015.0.0.309" opt="false" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="https://mxnp.github.io" resolutions="1x" timestamp="1479205202385">
   <folder name="css">
     <file name="site_global.css" crc="4052507572"/>
-    <file name="index.css" crc="366343922" ref="index"/>
-    <file name="master_main.css" crc="111529120" ref="index:projects"/>
-    <file name="projects.css" crc="4092369509" ref="projects"/>
+    <file name="index.css" crc="4276005138" ref="index"/>
+    <file name="master_main.css" crc="299788728" ref="index:projects"/>
+    <file name="projects.css" crc="209125445" ref="projects"/>
   </folder>
   <folder name="fonts">
     <file name="clearfacestd-bold.woff" crc="4023764204"/>
@@ -21,6 +21,7 @@
     <file name="jquery.museoverlay.js" crc="493285861" ref="index"/>
     <file name="touchswipe.js" crc="4038331989" ref="index"/>
     <file name="jquery.watch.js" crc="71412426" ref="index:projects"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4004268962" ref="index"/>
   </folder>
   <folder name="images">
     <file name="img_4575.jpg" crc="7096390" seo="true" ref="index"/>
@@ -28,14 +29,16 @@
     <file name="img_6136.jpg" crc="4215798392" seo="true" ref="index"/>
     <file name="img_5827.jpg" crc="4071061967" seo="true" ref="index"/>
     <file name="loading.gif" crc="3815509949" ref="index"/>
-    <file name="portfolio-signature-1a.png" crc="382087349" seo="true" ref="index:projects"/>
-    <file name="glyph-logo_may2016_gr.png" crc="4028581620" seo="true" ref="index:projects"/>
+    <file name="portfolio-signature-1a.png" crc="382087349" ref="index"/>
+    <file name="glyph-logo_may2016_gr.png" crc="4028581620" ref="index"/>
     <file name="img_7434.jpg" crc="35040061" seo="true" ref="index"/>
     <file name="img_743468x45.jpg" crc="329635968" seo="true" ref="index"/>
     <file name="img_613668x45.jpg" crc="4225068176" seo="true" ref="index"/>
     <file name="img_457568x45.jpg" crc="422649734" seo="true" ref="index"/>
     <file name="img_582768x45.jpg" crc="112136096" seo="true" ref="index"/>
+    <file name="portfolio-signature-1a-y.png" crc="3907348832" ref="index"/>
+    <file name="glyph-logo_may2016_y.png" crc="3819961677" ref="index"/>
   </folder>
-  <file name="index.html" crc="70336637" seo="true" mt="1479195785916" redirect="true"/>
-  <file name="projects.html" crc="3774788076" seo="true" mt="1479190375911" redirect="true"/>
+  <file name="index.html" crc="44660118" seo="true" mt="1479205150997" redirect="true"/>
+  <file name="projects.html" crc="3814839185" seo="true" mt="1479205150997" redirect="true"/>
 </manifest>
